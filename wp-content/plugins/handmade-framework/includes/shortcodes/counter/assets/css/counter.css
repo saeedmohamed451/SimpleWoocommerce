@@ -1,0 +1,12 @@
+.handmade-counter {
+  text-align: center;
+}
+.handmade-counter span {
+  font-size: 50px;
+  line-height: 1;
+}
+.handmade-counter p {
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 6px;
+}

@@ -1,0 +1,354 @@
+09-24-2017 @ 13:50:24 - Your domain has been verified with Apple Pay!
+09-24-2017 @ 13:51:24 - Apple Pay: Apple Pay not enabled or Stripe is not an available gateway ( Apple Pay button disabled )
+09-24-2017 @ 13:51:24 - Apple Pay: Apple Pay not enabled or Stripe is not an available gateway ( Apple Pay button disabled )
+09-24-2017 @ 13:51:35 - Apple Pay: Apple Pay not enabled or Stripe is not an available gateway ( Apple Pay button disabled )
+09-24-2017 @ 13:51:35 - Apple Pay: Apple Pay not enabled or Stripe is not an available gateway ( Apple Pay button disabled )
+09-24-2017 @ 13:54:30 - Info: Begin processing payment for order 2873 for the amount of 30.00
+09-24-2017 @ 13:54:30 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 3000
+    [description] => Sprella - Order 2873
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => Prakash Satani
+            [Customer Email] => test@mail.com
+        )
+
+    [source] => tok_1B5aYvExAEkxBLSZ6Y4AsqHp
+)
+
+09-24-2017 @ 13:54:31 - Processing response: stdClass Object
+(
+    [id] => ch_1B5aZ1ExAEkxBLSZTO2bs8rm
+    [object] => charge
+    [amount] => 3000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1B5aZ1ExAEkxBLSZWepiFaTc
+            [object] => balance_transaction
+            [amount] => 3000
+            [available_on] => 1506816000
+            [created] => 1506261271
+            [currency] => usd
+            [description] => Sprella - Order 2873
+            [fee] => 117
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 117
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 2883
+            [source] => ch_1B5aZ1ExAEkxBLSZTO2bs8rm
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1B5aZ1ExAEkxBLSZTO2bs8rm
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1506261271
+    [currency] => usd
+    [customer] => 
+    [description] => Sprella - Order 2873
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => Prakash Satani
+            [Customer Email] => test@mail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1B5aZ1ExAEkxBLSZTO2bs8rm/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1B5aYvExAEkxBLSZsXTRiVEx
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2020
+            [fingerprint] => DidnUdItrjY4kikp
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => test@mail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+09-24-2017 @ 13:54:32 - Success: Stripe charge complete (Charge ID: ch_1B5aZ1ExAEkxBLSZTO2bs8rm)
+09-24-2017 @ 18:07:25 - Info: Begin processing payment for order 2874 for the amount of 12.00
+09-24-2017 @ 18:07:25 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 1200
+    [description] => Sprella - Order 2874
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => Prakash Satani
+            [Customer Email] => psatani17@gmail.com
+        )
+
+    [source] => src_1B5eVeExAEkxBLSZuXZwVTNH
+)
+
+09-24-2017 @ 18:07:26 - Processing response: stdClass Object
+(
+    [id] => py_1B5eVlExAEkxBLSZdOz1suSa
+    [object] => charge
+    [amount] => 1200
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1B5eVlExAEkxBLSZF6G9pmO0
+            [object] => balance_transaction
+            [amount] => 1200
+            [available_on] => 1506816000
+            [created] => 1506276445
+            [currency] => usd
+            [description] => Sprella - Order 2874
+            [fee] => 10
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 10
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 1190
+            [source] => py_1B5eVlExAEkxBLSZdOz1suSa
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=py_1B5eVlExAEkxBLSZdOz1suSa
+                )
+
+            [status] => pending
+            [type] => payment
+        )
+
+    [captured] => 1
+    [created] => 1506276445
+    [currency] => usd
+    [customer] => 
+    [description] => Sprella - Order 2874
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => Prakash Satani
+            [Customer Email] => psatani17@gmail.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => not_assessed
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/py_1B5eVlExAEkxBLSZdOz1suSa/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1B5eVeExAEkxBLSZuXZwVTNH
+            [object] => source
+            [amount] => 1200
+            [client_secret] => src_client_secret_BSZe3qSST4VBNRKWmEb5aPR5
+            [created] => 1506276445
+            [currency] => usd
+            [flow] => receiver
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => psatani17@gmail.com
+                    [name] => 
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [receiver] => stdClass Object
+                (
+                    [address] => test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N
+                    [amount_charged] => 1200
+                    [amount_received] => 1200
+                    [amount_returned] => 0
+                    [refund_attributes_method] => email
+                    [refund_attributes_status] => missing
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => bitcoin
+            [usage] => single_use
+            [bitcoin] => stdClass Object
+                (
+                    [address] => test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N
+                    [amount] => 2845200
+                    [amount_charged] => 2845200
+                    [amount_received] => 2845200
+                    [amount_returned] => 0
+                    [uri] => bitcoin:test_1MBhWS3uv4ynCfQXF3xQjJkzFPukr4K56N?amount=0.02845200
+                    [refund_address] => 
+                )
+
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+09-24-2017 @ 18:07:26 - Success: Stripe charge complete (Charge ID: py_1B5eVlExAEkxBLSZdOz1suSa)
+09-27-2017 @ 18:31:45 - customers request: Array
+(
+    [email] => test@mail.com
+    [description] => Prakash Satani
+    [metadata] => Array
+        (
+        )
+
+)
+
+09-27-2017 @ 18:31:46 - customers/cus_BThjGPbJ8XXQIb/sources request: Array
+(
+    [source] => tok_1B6kJtExAEkxBLSZmYlRVcaX
+)
+
+09-27-2017 @ 18:31:47 - customers/cus_BThjGPbJ8XXQIb request: Array
+(
+    [default_source] => card_1B6kJtExAEkxBLSZofWep5i4
+)
+

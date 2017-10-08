@@ -1,0 +1,81 @@
+.handmade-ourteam {
+  text-align: center;
+  .ourteam-avatar-inner {
+    position: relative;
+    max-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 270px;
+    i:hover {
+      .transition-duration(0.4s);
+      .scale(1.5);
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .ourteam-avatar-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    .transition-duration(0.4s);
+    a, i {
+      color: #ffffff;
+    }
+  }
+  .ourteam-avatar:hover .ourteam-avatar-overlay {
+    opacity: 1;
+  }
+
+  .owl-wrapper .owl-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  h6 {
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding-top: 27px;
+    margin-bottom: 12px;
+  }
+
+  span {
+    font-size: 14px;
+    line-height: 1.2;
+    display: block;
+  }
+
+  p {
+    padding: 0 10px;
+    max-height: 126px;
+    overflow: hidden;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 22px 0 3px 0;
+    li {
+      display: inline-block;
+      a {
+        .transition(0.5s);
+        i {
+          font-size: 19px;
+          color: #AAAAAA;
+          line-height: 1.2;
+          margin: 0 7px;
+        }
+        &:hover i {
+          color: #25282C;
+        }
+      }
+    }
+  }
+}
+
+
+

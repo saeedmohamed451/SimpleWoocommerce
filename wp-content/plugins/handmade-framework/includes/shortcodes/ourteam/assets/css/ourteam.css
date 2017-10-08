@@ -1,0 +1,90 @@
+.handmade-ourteam {
+  text-align: center;
+}
+.handmade-ourteam .ourteam-avatar-inner {
+  position: relative;
+  max-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 270px;
+}
+.handmade-ourteam .ourteam-avatar-inner i:hover {
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.handmade-ourteam .ourteam-avatar-inner img {
+  width: 100%;
+  height: auto;
+}
+.handmade-ourteam .ourteam-avatar-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.handmade-ourteam .ourteam-avatar-overlay a,
+.handmade-ourteam .ourteam-avatar-overlay i {
+  color: #ffffff;
+}
+.handmade-ourteam .ourteam-avatar:hover .ourteam-avatar-overlay {
+  opacity: 1;
+}
+.handmade-ourteam .owl-wrapper .owl-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.handmade-ourteam h6 {
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding-top: 27px;
+  margin-bottom: 12px;
+}
+.handmade-ourteam span {
+  font-size: 14px;
+  line-height: 1.2;
+  display: block;
+}
+.handmade-ourteam p {
+  padding: 0 10px;
+  max-height: 126px;
+  overflow: hidden;
+}
+.handmade-ourteam ul {
+  list-style-type: none;
+  padding: 22px 0 3px 0;
+}
+.handmade-ourteam ul li {
+  display: inline-block;
+}
+.handmade-ourteam ul li a {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.handmade-ourteam ul li a i {
+  font-size: 19px;
+  color: #AAAAAA;
+  line-height: 1.2;
+  margin: 0 7px;
+}
+.handmade-ourteam ul li a:hover i {
+  color: #25282C;
+}

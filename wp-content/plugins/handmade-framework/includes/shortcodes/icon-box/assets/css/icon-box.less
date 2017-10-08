@@ -1,0 +1,111 @@
+.handmade-icon-box {
+  padding-top: 5px;
+  h3 {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  p {
+    line-height: 1.8;
+  }
+  .ibox-icon {
+    display: block;
+    i {
+      .transition(0.4s);
+    }
+  }
+  &.style1 {
+    .ibox-icon {
+      padding: 4px;
+      i {
+        font-size: 48px;
+        line-height: 1.2;
+      }
+    }
+    &:hover .ibox-icon i {
+      .scale(1.2);
+    }
+  }
+  &.style2 {
+    .ibox-icon {
+      text-align: center;
+      .transition(0.4s);
+      .box-shadow(0 0 6px #fff);
+      .rounded(50%);
+      i {
+        font-size: 36px;
+        line-height: 66px;
+        width: 70px;
+        .rounded(50%);
+        border: 2px solid;
+        color: #fff;
+      }
+      img {
+        .rounded(50%);
+      }
+    }
+
+    &:hover .ibox-icon i {
+      background-color: #fff;
+      .scale(1.1);
+    }
+
+    &.icon-top-center .ibox-icon {
+      margin: 0 auto 20px auto;
+      width: 70px;
+    }
+
+    &.icon-top-center:hover .ibox-icon i{
+      .scale(1.2);
+    }
+
+    &.light:hover .ibox-icon {
+      .box-shadow(0 0 6px #fff);
+      i {
+        border-color: #fff;
+        background-color: #fff;
+        font-weight: 600;
+      }
+    }
+    &.icon-top-left .ibox-icon {
+      display: inline-block;
+      i {
+        float: left;
+      }
+    }
+  }
+
+  &.light {
+    p, h3:hover a {
+      color: #fff;
+    }
+  }
+
+  &.icon-top-left {
+    .ibox-icon {
+      margin-left: 5px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &.icon-left {
+    .ibox-icon {
+      margin-left: 5px;
+      display: block;
+      float: left;
+    }
+    h3, p {
+      padding-left: 85px;
+    }
+  }
+
+  &.icon-top-center {
+    text-align: center;
+    .ibox-icon {
+      margin-bottom: 20px;
+    }
+    p {
+      padding: 0 15px;
+    }
+  }
+}

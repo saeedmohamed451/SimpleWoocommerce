@@ -1,0 +1,537 @@
+.handmade-banner h2,
+.handmade-banner p,
+.handmade-banner span {
+  padding: 0;
+  margin: 0;
+}
+.handmade-banner h2 {
+  line-height: 1.2;
+}
+.handmade-banner p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #999 !important;
+}
+.handmade-banner .sub-title {
+  font-size: 15px;
+  line-height: 1.6;
+  text-decoration: underline;
+}
+.handmade-banner .bg-img {
+  width: 100%;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.handmade-banner.custom {
+  position: relative;
+}
+.handmade-banner.custom .overlay-banner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+.handmade-banner.custom .overlay-banner a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.handmade-banner.custom .overlay-banner a .content-middle .content-middle-inner {
+  max-width: 380px;
+  max-height: 245px;
+  width: auto;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  padding: 60px 45px;
+  background-color: #fff;
+}
+.handmade-banner.custom .overlay-banner a .content-middle .content-middle-inner h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.handmade-banner.custom .overlay-banner a .content-middle .content-middle-inner:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid;
+}
+.handmade-banner.custom.center .content-middle-inner {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.handmade-banner.custom.top-left .content-middle-inner {
+  top: 20px;
+  left: 20px;
+}
+.handmade-banner.custom.top-right .content-middle-inner {
+  top: 20px;
+  right: 20px;
+}
+.handmade-banner.custom.bot-right .content-middle-inner {
+  bottom: 20px;
+  right: 20px;
+}
+.handmade-banner.custom.bot-left .content-middle-inner {
+  bottom: 20px;
+  left: 20px;
+}
+.handmade-banner.custom-button {
+  position: relative;
+}
+.handmade-banner.custom-button .bg-img {
+  background-size: cover;
+}
+.handmade-banner.custom-button .overlay-banner:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: .13;
+  top: 0;
+}
+.handmade-banner.custom-button .overlay-banner a {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.handmade-banner.custom-button .overlay-banner a .content-middle {
+  height: 100%;
+}
+.handmade-banner.custom-button .overlay-banner a .content-middle .content-middle-inner {
+  text-align: center;
+}
+.handmade-banner.custom-button .overlay-banner a .content-middle .content-middle-inner .handmade-button {
+  min-width: inherit;
+  padding-left: 25px;
+  padding-right: 25px;
+  -webkit-transition: all .3s ;
+  -moz-transition: all .3s ;
+  -ms-transition: all .3s ;
+  -o-transition: all .3s ;
+  transition: all .3s ;
+}
+.handmade-banner.custom-button .overlay-banner a .content-middle .content-middle-inner .handmade-button i {
+  opacity: 0;
+  right: 15px;
+  -webkit-transition: all .3s ;
+  -moz-transition: all .3s ;
+  -ms-transition: all .3s ;
+  -o-transition: all .3s ;
+  transition: all .3s ;
+}
+.handmade-banner.custom-button .overlay-banner a:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border: 2px solid;
+  z-index: -1;
+  -webkit-transition: all .3s ;
+  -moz-transition: all .3s ;
+  -ms-transition: all .3s ;
+  -o-transition: all .3s ;
+  transition: all .3s ;
+}
+.handmade-banner.custom-button:hover a:after {
+  -webkit-transform: translateX(13px) translateY(13px);
+  -moz-transform: translateX(13px) translateY(13px);
+  -ms-transform: translateX(13px) translateY(13px);
+  -o-transform: translateX(13px) translateY(13px);
+  transform: translateX(13px) translateY(13px);
+}
+.handmade-banner.custom-button:hover a .content-middle .content-middle-inner span.handmade-button {
+  padding-left: 25px;
+  padding-right: 40px;
+}
+.handmade-banner.custom-button:hover a .content-middle .content-middle-inner span.handmade-button i {
+  opacity: 1;
+}
+.handmade-banner.custom-icon {
+  position: relative;
+}
+.handmade-banner.custom-icon .overlay-banner {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.handmade-banner.custom-icon .overlay-banner a.link-banner:before,
+.handmade-banner.custom-icon .overlay-banner a.link-banner:after {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  content: '';
+  opacity: 0;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.handmade-banner.custom-icon .overlay-banner a.link-banner:before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0, 1);
+  -moz-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  -o-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+.handmade-banner.custom-icon .overlay-banner a.link-banner:after {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+  -moz-transform: scale(1, 0);
+  -ms-transform: scale(1, 0);
+  -o-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+.handmade-banner.custom-icon .overlay-banner a.link-banner .content-middle {
+  height: 100%;
+  position: absolute;
+}
+.handmade-banner.custom-icon .overlay-banner a.link-banner .content-middle:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: .38;
+}
+.handmade-banner.custom-icon .overlay-banner a.link-banner .content-middle .content-middle-inner {
+  position: relative;
+  text-align: center;
+}
+.handmade-banner.custom-icon .overlay-banner a.link-banner .content-middle .content-middle-inner img {
+  margin-bottom: 5px;
+}
+.handmade-banner.custom-icon .overlay-banner a.link-banner .content-middle .content-middle-inner i {
+  font-size: 56px;
+  color: #fff;
+}
+.handmade-banner.custom-icon .overlay-banner a.link-banner .content-middle .content-middle-inner h2 {
+  font-size: 30px;
+  color: #fff;
+  padding: 0 20px;
+}
+.handmade-banner.custom-icon:hover .overlay-banner a.link-banner:before,
+.handmade-banner.custom-icon:hover .overlay-banner a.link-banner:after {
+  opacity: .8;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.handmade-banner.style1 {
+  border: 2px solid;
+  position: relative;
+  overflow: hidden;
+}
+.handmade-banner.style1 .overlay-banner {
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.handmade-banner.style1 .overlay-banner .content-middle {
+  height: 100%;
+}
+.handmade-banner.style1 .overlay-banner .content-middle h2 {
+  max-width: 320px;
+}
+.handmade-banner.style1.content-center .content-middle-inner {
+  text-align: center;
+}
+.handmade-banner.style1.content-center .content-middle-inner h2 {
+  width: 80%;
+  font-size: 27px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.handmade-banner.style1.content-left .bg-img {
+  background-position: 100%;
+}
+.handmade-banner.style1.content-left .content-middle-inner {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+.handmade-banner.style1.content-left .content-middle-inner h2 {
+  font-size: 25px;
+  width: 70%;
+  margin: 0;
+}
+.handmade-banner.style2 {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.handmade-banner.style2 .overflow-hidden {
+  margin-right: 15px;
+}
+.handmade-banner.style2 .bg-img {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.handmade-banner.style2 .overlay-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.handmade-banner.style2 .overlay-banner:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  content: '';
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0);
+  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0);
+}
+.handmade-banner.style2 .overlay-banner .content-middle {
+  height: 100%;
+  width: 100%;
+}
+.handmade-banner.style2 .overlay-banner .content-middle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 2px solid;
+  top: 13px;
+  left: 13px;
+  right: 0;
+  bottom: 0;
+  transition: linear 0.2s;
+}
+.handmade-banner.style2 .overlay-banner .content-middle .content-middle-inner {
+  max-width: 320px;
+  padding: 45px 35px;
+  background-color: #fff;
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  opacity: .98;
+}
+.handmade-banner.style2 .overlay-banner .content-middle .content-middle-inner h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.handmade-banner.style2.right .content-middle .content-middle-inner {
+  right: 30px;
+}
+.handmade-banner.style2.left .content-middle .content-middle-inner {
+  left: 30px;
+}
+.handmade-banner.style2.only-button .overlay-banner .content-middle .content-middle-inner {
+  background-color: transparent;
+  position: static;
+  text-align: center;
+}
+.handmade-banner.style2.only-button .overlay-banner .content-middle .content-middle-inner .handmade-button {
+  padding-right: 40px;
+}
+.handmade-banner.style2.only-button .overlay-banner .content-middle .content-middle-inner .handmade-button i {
+  right: 15px;
+}
+.handmade-banner.style2.yes-add .overlay-banner .content-middle .content-middle-inner {
+  padding: 10px 15px;
+  background-color: transparent;
+}
+.handmade-banner.style2.yes-add .overlay-banner .content-middle .content-middle-inner h2 {
+  font-size: 27px;
+  margin: 0;
+}
+.handmade-banner.style2.yes-add .overlay-banner .content-middle .content-middle-inner span.sub-title {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+}
+.handmade-banner.style2.yes-add .overlay-banner .content-middle .content-middle-inner .handmade-button {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  padding-right: 40px;
+}
+.handmade-banner.style2.yes-add .overlay-banner .content-middle .content-middle-inner .handmade-button i {
+  right: 15px;
+}
+.handmade-banner.style2:hover .bg-img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.handmade-banner.style2:hover .overlay-banner:before {
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0);
+  transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0);
+}
+.handmade-banner.style3 {
+  position: relative;
+}
+.handmade-banner.style3 .bg-img {
+  position: relative;
+  border: 2px solid;
+}
+.handmade-banner.style3 .overlay-banner {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.handmade-banner.style3 .overlay-banner a:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  border: 2px solid #eee;
+  transition: linear .2s;
+}
+.handmade-banner.style3 .overlay-banner a .content-middle {
+  height: 100%;
+  width: 100%;
+}
+.handmade-banner.style3 .overlay-banner a .content-middle .content-middle-inner {
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+}
+.handmade-banner.style3 .overlay-banner a .content-middle .content-middle-inner h2 {
+  font-size: 15px;
+  display: inline-block;
+}
+.handmade-banner.style3 .overlay-banner a .content-middle .content-middle-inner .sub-title {
+  font-weight: bold;
+  text-decoration: none;
+}
+.handmade-banner.style3.top .bg-img {
+  top: 13px;
+  left: 13px;
+}
+.handmade-banner.style3.top a:before {
+  top: 0;
+  left: 0;
+}
+.handmade-banner.style3.top .content-middle-inner {
+  left: 15px;
+}
+.handmade-banner.style3.bot a:before {
+  top: 13px;
+  left: 13px;
+}
+.handmade-banner.style4 {
+  position: relative;
+}
+.handmade-banner.style4 .overlay-banner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+}
+.handmade-banner.style4 .overlay-banner a {
+  display: block;
+  height: 100%;
+}
+.handmade-banner.style4 .overlay-banner a .content-middle-inner {
+  height: 48px;
+  width: 48px;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  top: 55%;
+  right: 9%;
+}
+.handmade-banner.style4 .overlay-banner a .content-middle-inner span.title-style4 {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  display: block;
+  height: 44px;
+  width: 44px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 44px;
+  border: 1px solid;
+  color: #000;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .handmade-banner.style1 .content-middle .content-middle-inner {
+    top: 10px;
+    left: 20px;
+  }
+  .handmade-banner.style1 .content-middle .content-middle-inner h2 {
+    width: 100%;
+  }
+}
+@media (max-width: 1199px) {
+  .handmade-banner.custom-icon .overlay-banner {
+    max-width: 270px;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+}
+@media (max-width: 479px) {
+  .handmade-banner.custom .content-middle .content-middle-inner {
+    max-width: 320px !important;
+    padding: 45px 35px!important;
+    left: 10px;
+    right: 10px;
+    top: auto;
+    bottom: 30%;
+  }
+  .handmade-banner.custom .content-middle .content-middle-inner h2 {
+    font-size: 25px !important;
+  }
+  .handmade-banner.custom.center .content-middle-inner {
+    top: auto;
+    bottom: 30%;
+  }
+  .handmade-banner.style2 .content-middle .content-middle-inner {
+    left: 30px;
+    right: 30px;
+    margin: auto;
+    width: auto;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    min-width: 210px !important;
+    bottom: inherit !important;
+  }
+  .handmade-banner.style2 .content-middle .content-middle-inner h2 {
+    font-size: 25px !important;
+  }
+}

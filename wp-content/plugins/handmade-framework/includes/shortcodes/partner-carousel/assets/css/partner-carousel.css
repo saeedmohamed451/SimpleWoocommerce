@@ -1,0 +1,77 @@
+.handmade-partner-carousel {
+  position: relative;
+}
+.handmade-partner-carousel .owl-item {
+  height: 130px;
+  display: table;
+  text-align: center;
+}
+.handmade-partner-carousel img {
+  opacity: 0.8;
+}
+.handmade-partner-carousel img:hover {
+  opacity: 1;
+}
+.handmade-partner-carousel .content-middle-inner {
+  height: 100%;
+}
+.handmade-partner-carousel.opacity100 img {
+  opacity: 1;
+}
+.handmade-partner-carousel.opacity100 img:hover {
+  opacity: 1;
+}
+.handmade-partner-carousel.opacity90 img {
+  opacity: 0.9;
+}
+.handmade-partner-carousel.opacity90 img:hover {
+  opacity: 1;
+}
+.handmade-partner-carousel.opacity80 img {
+  opacity: 0.8;
+}
+.handmade-partner-carousel.opacity80 img:hover {
+  opacity: 1;
+}
+.handmade-partner-carousel.opacity70 img {
+  opacity: 0.7;
+}
+.handmade-partner-carousel.opacity70 img:hover {
+  opacity: 1;
+}
+.handmade-partner-carousel.opacity60 img {
+  opacity: 0.6;
+}
+.handmade-partner-carousel.opacity60 img:hover {
+  opacity: 1;
+}
+.handmade-partner-carousel.opacity50 img {
+  opacity: 0.5;
+}
+.handmade-partner-carousel.opacity50 img:hover {
+  opacity: 1;
+}
+.handmade-partner-carousel.opacity40 img {
+  opacity: 0.4;
+}
+.handmade-partner-carousel.opacity40 img:hover {
+  opacity: 1;
+}
+.handmade-partner-carousel.opacity30 img {
+  opacity: 0.3;
+}
+.handmade-partner-carousel.opacity30 img:hover {
+  opacity: 1;
+}
+.handmade-partner-carousel.opacity20 img {
+  opacity: 0.2;
+}
+.handmade-partner-carousel.opacity20 img:hover {
+  opacity: 1;
+}
+.handmade-partner-carousel.opacity10 img {
+  opacity: 0.1;
+}
+.handmade-partner-carousel.opacity10 img:hover {
+  opacity: 1;
+}

@@ -1,0 +1,125 @@
+.handmade-icon-box {
+  padding-top: 5px;
+}
+.handmade-icon-box h3 {
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.handmade-icon-box p {
+  line-height: 1.8;
+}
+.handmade-icon-box .ibox-icon {
+  display: block;
+}
+.handmade-icon-box .ibox-icon i {
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.handmade-icon-box.style1 .ibox-icon {
+  padding: 4px;
+}
+.handmade-icon-box.style1 .ibox-icon i {
+  font-size: 48px;
+  line-height: 1.2;
+}
+.handmade-icon-box.style1:hover .ibox-icon i {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.handmade-icon-box.style2 .ibox-icon {
+  text-align: center;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  -webkit-box-shadow: 0 0 6px #ffffff;
+  -moz-box-shadow: 0 0 6px #ffffff;
+  box-shadow: 0 0 6px #ffffff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.handmade-icon-box.style2 .ibox-icon i {
+  font-size: 36px;
+  line-height: 66px;
+  width: 70px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid;
+  color: #fff;
+}
+.handmade-icon-box.style2 .ibox-icon img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.handmade-icon-box.style2:hover .ibox-icon i {
+  background-color: #fff;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.handmade-icon-box.style2.icon-top-center .ibox-icon {
+  margin: 0 auto 20px auto;
+  width: 70px;
+}
+.handmade-icon-box.style2.icon-top-center:hover .ibox-icon i {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.handmade-icon-box.style2.light:hover .ibox-icon {
+  -webkit-box-shadow: 0 0 6px #ffffff;
+  -moz-box-shadow: 0 0 6px #ffffff;
+  box-shadow: 0 0 6px #ffffff;
+}
+.handmade-icon-box.style2.light:hover .ibox-icon i {
+  border-color: #fff;
+  background-color: #fff;
+  font-weight: 600;
+}
+.handmade-icon-box.style2.icon-top-left .ibox-icon {
+  display: inline-block;
+}
+.handmade-icon-box.style2.icon-top-left .ibox-icon i {
+  float: left;
+}
+.handmade-icon-box.light p,
+.handmade-icon-box.light h3:hover a {
+  color: #fff;
+}
+.handmade-icon-box.icon-top-left .ibox-icon {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.handmade-icon-box.icon-left .ibox-icon {
+  margin-left: 5px;
+  display: block;
+  float: left;
+}
+.handmade-icon-box.icon-left h3,
+.handmade-icon-box.icon-left p {
+  padding-left: 85px;
+}
+.handmade-icon-box.icon-top-center {
+  text-align: center;
+}
+.handmade-icon-box.icon-top-center .ibox-icon {
+  margin-bottom: 20px;
+}
+.handmade-icon-box.icon-top-center p {
+  padding: 0 15px;
+}
